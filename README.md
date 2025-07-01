@@ -37,10 +37,6 @@ SoulScent/
 │ └── images/ # Perfume product images
 
 
-## 📸 Preview
-
-![SoulScent Preview](https://user-images.githubusercontent.com/your-screenshot-placeholder.png)
-
 ## 🚀 Purpose of This Project
 
 > This is a **portfolio showcase project**, demonstrating my ability to:
