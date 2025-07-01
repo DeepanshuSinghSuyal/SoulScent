@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SoulScent – Where Scent Becomes Soul</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <!-- AOS Animation CSS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+</head>
+<body class="text-gray-800">
+    <!-- Navbar -->
+<header class="bg-white shadow-md sticky top-0 z-50">
+  <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+    <h1 class="text-2xl font-bold text-pink-500 font-[Playfair Display]">SoulScent</h1>
+    <nav class="space-x-4">
+      <a href="index.html" class="text-pink-500 font-semibold">Home</a>
+      <a href="shop.html" class="text-gray-700 hover:text-pink-500 font-medium">Shop</a>
+    </nav>
+  </div>
+</header>
+
+
+  <!-- Hero Section -->
+  <section class="h-screen flex flex-col justify-center items-center relative text-center px-4" data-aos="fade-in">
+    <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1522337660859-02fbefca4702?auto=format&fit=crop&w=1600&q=80')] bg-cover bg-center opacity-20"></div>
+    <div class="relative z-10">
+      <h1 class="text-5xl md:text-6xl font-bold mb-6" data-aos="fade-up">Where <span class="text-pink-500">Scent</span> Becomes Soul</h1>
+      <p class="text-lg md:text-xl mb-8" data-aos="fade-up" data-aos-delay="200">Uncover the emotions behind every fragrance.</p>
+      <a href="#moods" class="px-6 py-3 pink-btn text-white rounded-full hover:scale-105 transition" data-aos="zoom-in" data-aos-delay="400">Discover the Collection</a>
+    </div>
+  </section>
+
+  <!-- Mood Cards -->
+  <section id="moods" class="py-16 px-4 md:px-12">
+    <h2 class="text-3xl font-semibold text-center mb-10" data-aos="fade-up">Find Your Mood</h2>
+    <div class="grid md:grid-cols-3 gap-6">
+      <div class="glass p-8 rounded-2xl shadow-lg hover:scale-105 transition hover-bounce" data-aos="fade-up" data-aos-delay="100">
+        <h3 class="text-xl font-bold mb-3">🌸 For The Bold</h3>
+        <p>Amber, Leather, Oud. A scent for power moves.</p>
+      </div>
+      <div class="glass p-8 rounded-2xl shadow-lg hover:scale-105 transition hover-bounce" data-aos="fade-up" data-aos-delay="200">
+        <h3 class="text-xl font-bold mb-3">🌷 For The Dreamer</h3>
+        <p>Lavender, Vanilla, Jasmine. Soft as a whisper.</p>
+      </div>
+      <div class="glass p-8 rounded-2xl shadow-lg hover:scale-105 transition hover-bounce" data-aos="fade-up" data-aos-delay="300">
+        <h3 class="text-xl font-bold mb-3">🌙 For The Midnight Heart</h3>
+        <p>Musk, Vetiver, Sandalwood. Made for after hours.</p>
+      </div>
+    </div>
+  </section>
+
+ <!-- Best Sellers -->
+<section class="py-16 px-4 md:px-12 bg-pink-50">
+  <h2 class="text-3xl font-semibold text-center mb-10" data-aos="fade-up">Our Best Sellers</h2>
+  <div class="grid md:grid-cols-3 gap-6">
+
+    <!-- Card 1 -->
+    <div class="product-card p-6 rounded-2xl shadow-xl transition bg-white card-hover tilt-card" data-aos="zoom-in" data-aos-delay="100">
+      <img src="assets/images/skai.jpg" class="rounded-lg mb-4 w-full h-64 object-cover perfume-img cursor-pointer" alt="SKAI Perfume">
+      <div class="details hidden text-center">
+        <h4 class="font-bold text-lg">SKAI</h4>
+        <p class="text-sm text-gray-600">Citrus • Aqua • Woody</p>
+        <p class="text-pink-500 mt-1 font-semibold">₹1,999</p>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="product-card p-6 rounded-2xl shadow-xl transition bg-white card-hover tilt-card" data-aos="zoom-in" data-aos-delay="200">
+      <img src="assets/images/ceo-man.jpg" class="rounded-lg mb-4 w-full h-64 object-cover perfume-img cursor-pointer" alt="CEO MAN Perfume">
+      <div class="details hidden text-center">
+        <h4 class="font-bold text-lg">CEO MAN</h4>
+        <p class="text-sm text-gray-600">Citrus • Woody • Spicy</p>
+        <p class="text-pink-500 mt-1 font-semibold">₹2,199</p>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="product-card p-6 rounded-2xl shadow-xl transition bg-white card-hover tilt-card" data-aos="zoom-in" data-aos-delay="300">
+      <img src="assets/images/honey-oud.jpg" class="rounded-lg mb-4 w-full h-64 object-cover perfume-img cursor-pointer" alt="Honey Oud Perfume">
+      <div class="details hidden text-center">
+        <h4 class="font-bold text-lg">HONEY OUD</h4>
+        <p class="text-sm text-gray-600">Honey • Oud • Amber</p>
+        <p class="text-pink-500 mt-1 font-semibold">₹2,399</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+  <!-- About Section -->
+  <section class="py-16 px-4 md:px-20 text-center bg-pink-100" data-aos="fade-up">
+    <h2 class="text-3xl font-semibold mb-6">The SoulScent Story</h2>
+    <p class="max-w-3xl mx-auto text-lg">Born from a love of emotion and essence, SoulScent redefines perfume as a deeply personal art form. Every bottle is crafted with French oils, aged in silence, and made to awaken your soul.</p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-8 text-center bg-pink-200" data-aos="fade-up">
+    <p class="mb-2 font-medium">Join the Soul Society</p>
+    <input type="email" placeholder="Your email" class="px-4 py-2 rounded-full shadow-sm focus:outline-none"/>
+    <p class="mt-4 text-sm text-gray-700">© 2025 SoulScent. All rights reserved.</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/particles.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 800,
+      once: true,
+    });
+  </script>
+  <!-- Login Popup -->
+<div id="loginModal" class="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50 hidden">
+  <div class="bg-white rounded-xl p-8 w-80 shadow-lg relative text-center">
+    <button id="closeLogin" class="absolute top-2 right-3 text-gray-500 hover:text-pink-500 text-xl">&times;</button>
+    <h2 class="text-2xl font-bold mb-4 font-[Playfair Display] text-pink-500">Welcome Back</h2>
+    <input type="text" placeholder="Email" class="w-full mb-3 px-4 py-2 border rounded-lg focus:outline-none">
+    <input type="password" placeholder="Password" class="w-full mb-4 px-4 py-2 border rounded-lg focus:outline-none">
+    <button class="pink-btn w-full text-white px-4 py-2 rounded-lg">Log In</button>
+    <p class="text-sm text-gray-500 mt-4">or <span id="skipLogin" class="text-pink-500 cursor-pointer underline">skip for now</span></p>
+  </div>
+</div>
+<script>
+  window.addEventListener('DOMContentLoaded', () => {
+    const modal = document.getElementById('loginModal');
+    const closeBtn = document.getElementById('closeLogin');
+    const skipBtn = document.getElementById('skipLogin');
+
+    // Show modal on load
+    modal.classList.remove('hidden');
+    document.body.classList.add('modal-open');
+
+    // Close modal on click
+    closeBtn.addEventListener('click', () => {
+      modal.classList.add('hidden');
+      document.body.classList.remove('modal-open');
+    });
+
+    // Skip login
+    skipBtn.addEventListener('click', () => {
+      modal.classList.add('hidden');
+      document.body.classList.remove('modal-open');
+    });
+  });
+</script>
+
+</body>
+</html>
